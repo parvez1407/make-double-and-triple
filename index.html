@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Problem 27 Module</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <header class="text-center pt-9">
+        <h1 class="text-6xl">Welcome to <span class="text-orange-600">practice Problem</span></h1>
+    </header>
+    <main>
+        <section class="mt-10">
+            <div class="grid grid-cols-2 gap-8 w-9/12 mx-auto">
+                <div class="bg-orange-500 p-8 rounded-lg">
+                    <h4 class="text-white text-3xl">Double Value</h4>
+                    <h3 id="double-value" class="text-white text-6xl">00</h3>
+                </div>
+                <div class="bg-violet-500 p-8 rounded-lg">
+                    <h4 class="text-white text-3xl">Tripol Value</h4>
+                    <h3 id="tripol-value" class="text-white text-6xl">00</h3>
+                </div>
+            </div>
+        </section>
+        <section class="mt-10">
+            <div class="grid grid-cols-1 gap-8 w-9/12 mx-auto">
+                <div class="bg-slate-500 p-8 rounded-lg">
+                    <input id="input-field" class="block mb-4 w-full px-2 py-2 rounded-md outline-none" type="text"
+                        name="">
+                    <button id="make-double"
+                        class="px-10 py-3 bg-orange-400 hover:bg-amber-300 rounded-lg text-xl font-medium text-white">Make
+                        Double</button>
+                    <button id="make-tripel"
+                        class="px-10 py-3 bg-amber-500 hover:bg-orange-300 rounded-lg text-xl font-medium text-white">Make
+                        Triple</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/utilities.js"></script>
+    <script src="js/double.js"></script>
+    <script src="js/tripol.js"></script>
+</body>
+
+</html>
